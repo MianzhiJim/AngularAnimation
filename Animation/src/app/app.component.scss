@@ -1,0 +1,49 @@
+.img-container {
+  width: fit-content;
+  margin-inline: auto;
+}
+
+mat-card {
+  margin: 10px;
+}
+
+button.add {
+  display: grid;
+  place-items: center;
+  height: 4em;
+  width: 4em;
+  position: fixed;
+  bottom: 2em;
+  left: 70%;
+  margin-inline: 20px;
+}
+
+button.remove {
+  display: grid;
+  place-items: center;
+  height: 4em;
+  width: 4em;
+  position: fixed;
+  bottom: 2em;
+  left: 70%;
+  margin-inline: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.add {
+  background-color: #00deb7;
+  // translate: calc(50% + 0.5em);
+}
+
+button.remove {
+  background-color: #ff495d;
+  // translate: calc((50% + 0.5em) * -1);
+}
+
+.container {
+  position: fixed;
+  right: 40%;
+}

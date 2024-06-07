@@ -1,0 +1,14 @@
+<mat-drawer-container class="menu-bar">
+  <mat-drawer-content>
+    <ul *ngFor="let item of menuItems">
+      <li>
+        <a>{{ item.name }}</a>
+        <!-- <a [routerLink]="item.link" routerLinkActive="active" ariaCurrentWhenActive="page">{{ item.name }}</a> -->
+      </li>
+    </ul>
+  </mat-drawer-content>
+</mat-drawer-container>
+
+<button mat-icon-button class="closeMenu" (click)="menuClose.emit()">
+  <mat-icon>close</mat-icon>
+</button>
